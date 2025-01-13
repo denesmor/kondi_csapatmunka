@@ -1,0 +1,1 @@
+# kondi_csapatmunka
