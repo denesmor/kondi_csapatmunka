@@ -2,3 +2,4 @@
 #dini itt
 #jira
 # commit tanár úrnak!
+ittvok
