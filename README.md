@@ -4,3 +4,4 @@
 # commit tanár úrnak!
 ittvok
 # jira
+# jira2
