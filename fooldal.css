@@ -1,0 +1,14 @@
+
+/*h1*/
+h1{
+    color: red;
+}
+
+/*Napi kihívás*/
+#NapiCim{
+    text-align: center;
+}
+#NapiKi{
+    margin-left: auto;
+    margin-right: auto;
+}
