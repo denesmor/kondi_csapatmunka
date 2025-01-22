@@ -5,6 +5,9 @@
 ittvok
 # jira
 # jira2
+<<<<<<< HEAD
+#Dani itt
+=======
 
 <<<<<<< HEAD
 
