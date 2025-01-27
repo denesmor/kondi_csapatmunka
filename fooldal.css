@@ -3,6 +3,12 @@
 h1{
     color: red;
 }
+/*body*/
+body{
+    color: white;
+    background-color: black;
+}
+
 
 /*Napi kihívás*/
 #NapiCim{
@@ -11,4 +17,17 @@ h1{
 #NapiKi{
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+#NKbutton{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#NKbutton button{
+    background-color: black;
+    width: 200px;
+    height: 100px;
 }
