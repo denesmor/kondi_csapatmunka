@@ -48,3 +48,7 @@ body{
     
 }
 
+.offcanvas{
+    --bs-offcanvas-width: 200px;
+}
+
