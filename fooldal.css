@@ -18,6 +18,15 @@ body{
     margin-right: auto;
 }
 
+#NKbutton{
+    text-align: center;
+    color: black;
+}
+#NKbutton button{
+    text-align: center;
+    color: black;
+}
+
 #lablec{
     background-color: red;
 }
@@ -36,7 +45,6 @@ body{
 .lablec_kep{
     height: 10%;
     width: 10%;
-    text-align: center;
-    color: black;
+    
 }
 
