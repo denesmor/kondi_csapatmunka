@@ -21,6 +21,17 @@ body{
     color: white;
 }
 
+/*Csapatunk*/
+.carousel-inner img{
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.w-100 {
+    width: 800px;
+}
+
 .modal-content{
     background-color: black;
 }
