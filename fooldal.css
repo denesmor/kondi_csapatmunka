@@ -17,6 +17,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     color: black;
+    text-align: center;
+    color: white;
+}
+
+.modal-content{
+    background-color: black;
 }
 
 #NKbutton{
@@ -40,6 +46,7 @@ body{
     color: red;
     padding-top: 30px;
 }
+
 
 .grid-container_lablec{
     display: grid;
@@ -90,3 +97,7 @@ body{
     --bs-offcanvas-width: 200px;
 }
 
+ul[class="navbar-nav"]
+{
+    background: url(/kepek/Iron_HavenLogo.png);
+}
