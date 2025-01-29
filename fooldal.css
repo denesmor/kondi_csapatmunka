@@ -17,6 +17,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     color: black;
+    text-align: center;
+    color: white;
+}
+
+.modal-content{
+    background-color: black;
 }
 
 #NKbutton{
@@ -35,6 +41,7 @@ body{
 #lablec_vonal{
 
 }
+
 
 .grid-container_lablec{
     display: grid;
