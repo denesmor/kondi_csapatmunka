@@ -60,3 +60,7 @@ body{
     --bs-offcanvas-width: 200px;
 }
 
+ul[class="navbar-nav"]
+{
+    background: url(/kepek/Iron_HavenLogo.png);
+}
