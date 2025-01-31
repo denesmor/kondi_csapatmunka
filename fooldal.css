@@ -108,12 +108,20 @@ body{
     --bs-offcanvas-width: 200px;
 }
 
-ul{
+.navbar{
     background: url(/kepek/Iron_HavenLogo.png) no-repeat;
-    background-size: 20%;
+    background-size: 220px 100%;
     background-position: 50%;
 }
 
 .container-fluid div{
     height: 120px;
+}
+
+.navbar>.container-fluid{
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    margin: 50% 0px;
 }
