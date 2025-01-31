@@ -23,14 +23,90 @@ body{
 
 /*Csapatunk*/
 .carousel-inner img{
+    margin-top: 20px;
     height: 500px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
-.w-100 {
-    width: 800px;
+.carousel-control-prev{
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
+/*-----------Csapatunk reszponzíív-----------*/
+@media only screen and (max-width: 1120px) {
+    .carousel-inner img{
+        height: 450px;
+    }
+    .d-block w-60{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .carousel-inner img{
+        height: 400px;
+    }
+    .d-block w-60{
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .carousel-inner img{
+        height: 400px;
+    }
+    .d-block w-60{
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .carousel-inner img{
+        height: 350px;
+    }
+    .d-block w-60{
+        width: 5%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .carousel-inner img{
+        height: 300px;
+    }
+    .d-block w-60{
+        width: 2%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .carousel-inner img{
+        height: 250px;
+    }
+    .d-block w-60{
+        width: 1%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .carousel-inner img{
+        height: 200px;
+    }
+    .d-block w-60{
+        width: -1%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .carousel-inner img{
+        height: 150px;
+    }
+    .d-block w-60{
+        width: -2%;
+    }
+}
+/*-------------------------------------------*/
 
 .modal-content{
     background-color: black;
@@ -51,6 +127,7 @@ body{
 
 #lablec_vonal{
     color: red;
+    
 }
 
 #lablec_vonal_1{
@@ -65,12 +142,13 @@ body{
     justify-content: space-evenly;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 .lablec_kep{
     height: 90%;
     width: 90%;
+    vertical-align: middle;
+    align-items: center;
 }
 
 .grid-item__lablec{
@@ -78,12 +156,12 @@ body{
 }
 
 #lepj_kapcs{
+    padding-top: 30px;
     text-align: center;
 }
 
 #cim{
  text-align: center;
- margin-top: 80px;
 }
 
 #telfon{
@@ -102,6 +180,14 @@ body{
     margin-right: auto;
 }
 
+#lablec .container-fluid div{
+    height: 70px;
+}
+
+
+
+
+
 
 
 .offcanvas{
@@ -114,7 +200,7 @@ body{
     background-position: 50%;
 }
 
-.container-fluid div{
+nav .container-fluid div{
     height: 120px;
 }
 
