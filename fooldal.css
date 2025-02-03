@@ -184,12 +184,6 @@ body{
     height: 70px;
 }
 
-
-
-
-
-
-
 .offcanvas{
     --bs-offcanvas-width: 200px;
 }
@@ -200,7 +194,7 @@ body{
     background-position: 50%;
 }
 
-nav .container-fluid div{
+nav .container-fluid div:last-child{
     height: 120px;
 }
 
@@ -210,4 +204,20 @@ nav .container-fluid div{
 
 .navbar-toggler{
     margin: 50% 0px;
+}
+
+.nav-link{
+    font-size: 24px;
+}
+
+.active{
+    font-size: 32px;
+}
+
+.offcanvas-header{
+    height: 120px;
+}
+
+.navbar-toggler-icon{
+    
 }
