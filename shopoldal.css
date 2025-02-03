@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: white;
+}
+.grid-container_feherje{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+
+}
