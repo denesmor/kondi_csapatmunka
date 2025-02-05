@@ -3,8 +3,24 @@ body{
     color: white;
 }
 .grid-container_feherje{
+    margin-top: 50px;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
+    text-align: center;
 
+}
+
+.grid-container_kreatin{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.termek{
+    height: 260px;
+    width: 260px;
 }
