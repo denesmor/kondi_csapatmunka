@@ -290,6 +290,35 @@ body{
     }
 }
 
+#berletek{
+    margin-bottom: 300px;
+    
+}
+
+#berletek_szoveg{
+    width: 40%;
+    float: left;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+#berletek_kep{
+    width: 60%;
+    float: right;
+    border: 2px solid white;
+    border: 30px;
+}
+
+#berlet_img{
+    width: 60%;
+    height: 60%;
+}
+
+.berlet_p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 .offcanvas{
     --bs-offcanvas-width: 200px;
 }
