@@ -7,6 +7,45 @@ body{
     height: 70px;
 }
 
+.offcanvas{
+    --bs-offcanvas-width: 200px;
+}
+
+.navbar{
+    background: url(/kepek/Iron_HavenLogo.png) no-repeat;
+    background-size: 220px 100%;
+    background-position: 50%;
+}
+
+nav .container-fluid div:last-child{
+    height: 120px;
+}
+
+.navbar>.container-fluid{
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    margin: 50% 0px;
+}
+
+.nav-link{
+    font-size: 24px;
+}
+
+.active{
+    font-size: 32px;
+}
+
+.offcanvas-header{
+    height: 120px;
+}
+
+@media only screen and (max-width: 767px){
+    nav .container-fluid div:last-child{
+        height: 100%;
+    }
+}
 
 .grid-container_kreatin{
     margin-top: 100px;
