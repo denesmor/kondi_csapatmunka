@@ -1,0 +1,20 @@
+body{
+    color: white;
+    background-color: black;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+#kep{
+
+    float: left;
+
+   
+}
+#kepp{
+    height: 450px;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
