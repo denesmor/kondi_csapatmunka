@@ -182,7 +182,6 @@ body{
 }
 
 
-
 @media only screen and (max-width:900px)
 {
     .grid-container_lablec{
@@ -375,6 +374,8 @@ nav .container-fluid div:last-child{
     height: 120px;
 }
 
-.navbar-toggler-icon{
-    
+@media only screen and (max-width: 767px){
+    nav .container-fluid div:last-child{
+        height: 100%;
+    }
 }
