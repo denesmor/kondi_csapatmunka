@@ -6,7 +6,7 @@ body{
 #fejlecalattinav{
     height: 70px;
 }
-
+/* Danié nem hozzányulni!*/
 .offcanvas{
     --bs-offcanvas-width: 200px;
 }
@@ -33,6 +33,11 @@ nav .container-fluid div:last-child{
     font-size: 24px;
 }
 
+.nav-item, .flex-fill > a{
+    color: white;
+    --bs-nav-link-hover-color: white;
+}
+
 .active{
     font-size: 32px;
 }
@@ -40,6 +45,11 @@ nav .container-fluid div:last-child{
 .offcanvas-header{
     height: 120px;
 }
+
+a > h3{
+    width: 150px;
+}
+/*-----------------*/
 
 @media only screen and (max-width: 767px){
     nav .container-fluid div:last-child{
