@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#ber_cim{
+    font-size: xx-large;
+    color: red;
+    margin: 0px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+#ber_felsoszoveg{
+    font-size: larger;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.ber_vonalak{
+    color: red;
+}
+.ber_oszlopok{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+
