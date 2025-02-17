@@ -46,8 +46,10 @@ nav .container-fluid div:last-child{
     height: 120px;
 }
 
-a > h3{
-    width: 150px;
+a[class="nav-link cimkestart"]{
+    padding: 0px;
+    width: fit-content;
+    margin-bottom: -20px;
 }
 /*-----------------*/
 
