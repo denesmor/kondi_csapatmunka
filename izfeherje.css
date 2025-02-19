@@ -22,11 +22,11 @@ h1{
 
 
 
-#leiras{
+h3{
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #kosarba{
@@ -86,12 +86,13 @@ h1{
     }
     
 }
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 860px){
     #kepp{
         height: 250px;
         width: 250px;
         margin-top: 50px;
         margin-left: 50px;
+        
     }
     
 }
@@ -105,18 +106,9 @@ h1{
     
 }
 
+
+
 @media only screen and (max-width: 500px){
-
-    #kepp{
-        height: 150px;
-        width: 150px;
-        margin-top: 50px;
-        margin-left: 50px;
-    }
-
-}
-
-@media only screen and (max-width: 450px){
 
     .grid-container_termekek{
         margin-top: 100px;
@@ -125,18 +117,19 @@ h1{
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        margin-top: 150px;
         
     }
 
     #kepp{
+        display: block;
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        height: 200px;
+        width: 200px;
+        margin: 50px auto;
     }
     #kep{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        float: none;
     }
 
 }
