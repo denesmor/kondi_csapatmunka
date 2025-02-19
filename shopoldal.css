@@ -131,4 +131,10 @@ a[class="nav-link cimkestart"]{
         height: 160px;
         width: 160px;
     }
+    a[class="nav-link cimkestart"]{
+        font-size: 150%;
+        padding: 0px;
+        width: fit-content;
+        margin-bottom: -20px;
+    }
 }
