@@ -4,7 +4,7 @@ body{
     height: auto;
 }
 #fejlecalattinav{
-    height: 70px;
+    height: 100px;
 }
 /* Danié nem hozzányulni!*/
 .offcanvas{
@@ -46,11 +46,65 @@ nav .container-fluid div:last-child{
     height: 120px;
 }
 
-a[class="nav-link cimkestart"]{
-    padding: 0px;
+a[class="nav-link border-bottom border-3 border-danger"]{
+    --bs-nav-link-padding-x: 1.35rem;
+    --bs-nav-link-padding-y: 0rem;
     width: fit-content;
     margin-bottom: -20px;
 }
+
+a[class="nav-link"] img{
+    width: 70px;
+    height: 70px;
+}
+
+@media only screen and (max-width: 610px){
+    a[class="nav-link border-bottom border-3 border-danger"]
+    {
+        font-size: 18px;
+        --bs-nav-link-padding-x: 1rem;
+    }
+
+    a[class="nav-link"] img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    a[class="nav-link border-bottom border-3 border-danger"]
+    {
+        font-size: 16px;
+        --bs-nav-link-padding-x: 0.85rem;
+    }
+
+    a[class="nav-link"] img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    a[class="nav-link border-bottom border-3 border-danger"]
+    {
+        font-size: 14px;
+        --bs-nav-link-padding-x: 0.5rem;
+    }
+
+    a[class="nav-link"] img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .navbar{
+        background: url(/kepek/Iron_HavenLogo.png) no-repeat;
+        background-size: 180px 100%;
+        background-position: 50%;
+    }
+}
+
 /*-----------------*/
 
 @media only screen and (max-width: 767px){
@@ -111,13 +165,19 @@ a[class="nav-link cimkestart"]{
 @media  only screen and (max-width: 900px){
    
     .grid-container_kreatin{
-        margin-top: 100px;
+        margin-top: 30px;
         display: block;
     }
 
     .start{
         width: 450px;
         height: 300px;
+    }
+
+    .cimkek{
+        float: none;
+        width: 80px;
+        margin: 40px auto 0px;
     }
 }
 
