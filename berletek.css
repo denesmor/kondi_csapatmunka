@@ -17,9 +17,18 @@ body{
     padding-top: 30px;
     padding-left: 40px;
 }
+hr{
+    color: red;
+}
+
+#ber_vonal1{
+
+}
 
 .ber_vonalak{
-    color: red;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ber_oszlopok{
     display: grid;
@@ -27,4 +36,31 @@ body{
     grid-template-rows: auto;
 }
 
+.ber_vas_cim{
+    text-align: center;
+}
+
+.ber_gomb_div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ber_gomb{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 14px 28px;
+    font-size: larger;
+   
+}
+
+.ber_gomb_link{
+    color: white;
+    text-decoration: none;
+}
+
+.ber_vonal_alatt{
+   
+}
 
