@@ -7,6 +7,8 @@ body{
     height: 100px;
 }
 /* Danié nem hozzányulni!*/
+/* navbar start */
+
 .offcanvas{
     --bs-offcanvas-width: 200px;
 }
@@ -33,7 +35,7 @@ nav .container-fluid div:last-child{
     font-size: 24px;
 }
 
-.nav-item, .flex-fill > a{
+.flex-fill > a{
     color: white;
     --bs-nav-link-hover-color: white;
 }
@@ -45,6 +47,23 @@ nav .container-fluid div:last-child{
 .offcanvas-header{
     height: 120px;
 }
+
+@media only screen and (max-width: 767px){
+    .active{
+        border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+        --bs-border-opacity: 1;
+        border-color: rgba(var(--bs-danger-rgb), var(--bs-border-opacity)) !important;
+        border-width: 3px !important;
+        --bs-nav-link-padding-x: 1.35rem;
+        --bs-nav-link-padding-y: 0rem;
+        width: fit-content;
+    }
+
+    nav .container-fluid div:last-child{
+        height: 100%;
+    }
+}
+/* navbar end */
 
 a[class="nav-link border-bottom border-3 border-danger"]{
     --bs-nav-link-padding-x: 1.35rem;
@@ -69,6 +88,10 @@ a[class="nav-link"] img{
         width: 50px;
         height: 50px;
     }
+
+    #fejlecalattinav{
+        height: 75px;
+    }
 }
 
 @media only screen and (max-width: 530px){
@@ -81,6 +104,10 @@ a[class="nav-link"] img{
     a[class="nav-link"] img{
         width: 40px;
         height: 40px;
+    }
+
+    #fejlecalattinav{
+        height: 65px;
     }
 }
 
@@ -106,12 +133,6 @@ a[class="nav-link"] img{
 }
 
 /*-----------------*/
-
-@media only screen and (max-width: 767px){
-    nav .container-fluid div:last-child{
-        height: 100%;
-    }
-}
 
 .grid-container_kreatin{
     margin-top: 100px;
