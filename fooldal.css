@@ -372,6 +372,8 @@ body{
     }
 }
 
+/* navbar start */
+
 .offcanvas{
     --bs-offcanvas-width: 200px;
 }
@@ -398,6 +400,11 @@ nav .container-fluid div:last-child{
     font-size: 24px;
 }
 
+.flex-fill > a{
+    color: white;
+    --bs-nav-link-hover-color: white;
+}
+
 .active{
     font-size: 32px;
 }
@@ -407,7 +414,18 @@ nav .container-fluid div:last-child{
 }
 
 @media only screen and (max-width: 767px){
+    .active{
+        border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+        --bs-border-opacity: 1;
+        border-color: rgba(var(--bs-danger-rgb), var(--bs-border-opacity)) !important;
+        border-width: 3px !important;
+        --bs-nav-link-padding-x: 1.35rem;
+        --bs-nav-link-padding-y: 0rem;
+        width: fit-content;
+    }
+
     nav .container-fluid div:last-child{
         height: 100%;
     }
 }
+/* navbar end */
