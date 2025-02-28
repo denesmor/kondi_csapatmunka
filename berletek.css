@@ -1,6 +1,8 @@
 body{
     background-color: black;
     color: white;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #ber_cim{
@@ -22,11 +24,11 @@ hr{
 }
 
 #ber_vonal1{
-
+    width: 100%;
 }
 
 .ber_vonalak{
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -34,10 +36,43 @@ hr{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#ber_oszlop_1{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#ber_oszlop_2{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#ber_oszlop_3{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#ber_oszlop_4{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.ber_felsorolas{
+    padding-left: 25px;
 }
 
 .ber_vas_cim{
     text-align: center;
+    height: 10px;
 }
 
 .ber_gomb_div{
@@ -60,7 +95,34 @@ hr{
     text-decoration: none;
 }
 
-.ber_vonal_alatt{
-   
+.ber_szemelyi{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
+#ber_szem_cimsor{
+
+}
+
+#ber_szem_cim{
+    width: 220px;
+    height: 10px;
+}
+
+#ber_szem_vonal{
+    color: red;
+    width: 220px;
+}
+
+#ber_szem_kep{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 630px){
+
+}
