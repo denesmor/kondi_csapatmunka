@@ -104,8 +104,29 @@ hr{
     padding-right: 15%;
 }
 
-#ber_szem_cimsor{
+#ber_szem_bal{
+    
+}
 
+#ber_szem_embik{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    text-align: center;
+    height: 50px;
+}
+
+.embik_kepek_div{
+    
+}
+
+.embik_kepek{
+   height: 50px;
+
+}
+
+.embik_embik{
+    height: 50px;
 }
 
 #ber_szem_cim{
