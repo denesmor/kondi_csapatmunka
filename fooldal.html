@@ -86,18 +86,42 @@
 
         <div id="bejelenetkezes">
             <h3>Bejelenetkezes</h3>
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-flex flex-wrap justify-content-around mb-3">
                 <div class="p-3 gym_border text-white">
-                    <p>
+                    <p class="bejent_szoveg">
                         A teljes oldal megtekintése érdekében, illetve a teljes élményért.
                     </p>
                 </div>
-                <div class="p-3 gym_border d-flex flex-column justify-content-around">
-                    <button class="btn btn-light btn-gray p-1">Bejelentkezés</button>
-                    <button class="btn btn-light btn-gray p-1">Regisztráció</button>
+                <div class="p-3 gym_border d-flex flex-column justify-content-around bejelent_btns">
+                    <button type="button" class="btn btn-light btn-gray p-1 align-self-center" data-bs-toggle="modal" data-bs-target="#bejelent_modal">Bejelentkezés</button>
+                    <button class="btn btn-light btn-gray p-1 align-self-center">Regisztráció</button>
                 </div>
             </div>
         </div>
+
+        <div class="modal" id="bejelent_modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Modal Heading</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                  Modal body..
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
 
         <!-- Csapatok -->
     </div>
