@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+#fizetes_focim{
+    font-size: xx-large;
+    color: red;
+    margin: 0px;
+    text-align: center;
+}
+
+#fizetes_focim_vonal{
+    color: red;
+    width: 100%;
+}
+
+#fizetes_fizetes{
+    font-size: xx-large;
+    color: red;
+    margin: 0px;
+    text-align: center;
+}
