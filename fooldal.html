@@ -108,9 +108,7 @@
                 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
                     <div class="container-fluid">
                         <div class="mobile-toggler d-lg-none">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#oldalnav" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                         </div>
                         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="oldalnav" aria-labelledby="offcanvasNavbarLabel">
                             <div class="offcanvas-header flex-row-reverse">
@@ -137,14 +135,22 @@
           
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <h3>Bejelenetkezes</h3>
+                    <form>
+                        <div class="input-group">
+                          <span class="input-group-text">Email:</span>
+                          <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                      
+                        <div class="input-group">
+                            <span class="input-group-text">Jelszó:</span>
+                          <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                      </form>
+
+                    <button id="_567" type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                 </div>
-          
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                </div>
-          
+
               </div>
             </div>
           </div>

@@ -395,6 +395,36 @@ div[id="bejelenetkezes"] > h3{
     max-height: 100%;
 }
 
+#berlet_btn_link{
+    color: black;
+    text-decoration: none;
+}
+
+#berlet_gomb_div{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.modal-body > h3{
+    justify-self: center;
+}
+
+.input-group{
+    margin: 25px 0px;
+    width: 650px;
+    justify-self: center;
+}
+
+.input-group-text{
+    font-size: 2rem;
+}
+
+.form-control{
+    font-size: 2rem;
+}
+
 @media only screen and (max-width: 710px)
 {
     .btn-gray{
@@ -428,18 +458,6 @@ div[id="bejelenetkezes"] > h3{
     border: 0px;
     border-radius: 20px;
     font-size: xx-large;
-}
-
-#berlet_btn_link{
-    color: black;
-    text-decoration: none;
-}
-
-#berlet_gomb_div{
-    padding-left: 30px;
-    padding-right: 30px;
-    height: 70px;
-    object-fit: cover;
 }
 
 @media only screen and (max-width: 700px)
@@ -524,6 +542,71 @@ li > .active{
 
     nav .container-fluid div:last-child{
         height: 100%;
+    }
+    
+    .modal-body > h3{
+        justify-self: center;
+    }
+
+    .input-group{
+        margin: 25px 0px;
+        width: 550px;
+        justify-self: center;
+    }
+
+    .input-group-text{
+        font-size: 1rem;
+    }
+
+    .form-control{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 567px)
+{
+    .modal-body > h3{
+        justify-self: center;
+    }
+
+    .input-group{
+        margin: 25px 0px;
+        width: 400px;
+        justify-self: center;
+    }
+
+    .input-group-text{
+        font-size: 0.8rem;
+    }
+
+    .form-control{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 410px)
+{
+    .modal-body > h3{
+        justify-self: center;
+    }
+
+    .input-group{
+        margin: 25px 0px;
+        width: 300px;
+        justify-self: center;
+    }
+
+    .input-group-text{
+        font-size: 0.7rem;
+    }
+
+    .form-control{
+        font-size: 0.7rem;
+    }
+    
+    nav > .container-fluid{
+        padding: 6px;
     }
 }
 /* navbar end */
