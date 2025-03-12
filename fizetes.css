@@ -16,9 +16,99 @@ body{
     width: 100%;
 }
 
+#felso_divek{
+
+}
+
+.felso_divek_divek{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
 #fizetes_fizetes{
     font-size: xx-large;
     color: red;
     margin: 0px;
     text-align: center;
 }
+
+#kartya_3as_sor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+
+
+
+
+
+
+
+
+
+#kartya_hozzaadas{
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+
+}
+
+.kartya_hoz_divek{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#kartyahoz_kszam_div{
+    margin-top: 20px;
+}
+
+#kartyahoz_nev_div{
+    margin-bottom: 20px;
+}
+
+#fizu_gomb_div{
+    text-align: center;
+}
+
+#fizu_gomb{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 14px 28px;
+    font-size: larger;
+}
+
+#fizu_gomb_link{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*lablec css*/
