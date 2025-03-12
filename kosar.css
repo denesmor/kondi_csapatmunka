@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
 #negyszaz{ 
+
   display: flex;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   align-items: center;
   justify-content: center;
@@ -15,11 +16,14 @@
 }
 
 #negyszaz{
+  margin-left: 50px;
+  margin-right: 50px;
     margin-top: 50px;
   animation: glitch 1s linear infinite;
   height: 100px;
   text-align: center;
   background-color: black;
+
 }
 
 @keyframes glitch{
@@ -38,7 +42,7 @@
 #negyszaz:after{
   content: attr(title);
   position: absolute;
-  left: 0;
+  text-align: center;
 
 }
 
@@ -46,6 +50,7 @@
   animation: glitchTop 1s linear infinite;
   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  text-align: center;
 }
 
 @keyframes glitchTop{
