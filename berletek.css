@@ -23,7 +23,7 @@ body{
 }
 
 #ber_felszov_div{
-
+    margin-bottom: 10px;
 }
 
 hr{
@@ -79,7 +79,6 @@ hr{
 
 .ber_vas_cim{
     text-align: center;
-    height: 10px;
 }
 
 .ber_gomb_div{
@@ -139,11 +138,16 @@ hr{
 
 .embik_embik{
     height: 50px;
+    display: flex;
+}
+
+.embik_embik > p{
+    align-self: center;
+    margin: 0px;
 }
 
 #ber_szem_cim{
     width: 220px;
-    height: 10px;
 }
 
 #ber_szem_vonal{
@@ -175,18 +179,22 @@ hr{
 
     #ber_oszlop_1{
         width: 90%;
+        height: 350px;
     }
     
     #ber_oszlop_2{
         width: 90%;
+        height: 350px;
     }
     
     #ber_oszlop_3{
         width: 90%;
+        height: 350px;
     }
     
     #ber_oszlop_4{
         width: 90%;
+        height: 350px;
     }
 
     .ber_gomb_div{
