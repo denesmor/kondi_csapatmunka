@@ -43,6 +43,11 @@ body{
     height: 800px;
 }
 
+#NapiKih{
+    margin-bottom: 200px;
+
+}
+
 
 /*-----------Csapatunk reszponzíív-----------*/
 @media only screen and (max-width: 1120px) {
