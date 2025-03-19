@@ -124,17 +124,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*lablec css*/
 
 #lablec{
@@ -304,3 +293,129 @@ body{
         width: 100%;
     }
 }
+
+
+
+/* navbar start */
+
+.offcanvas{
+    --bs-offcanvas-width: 200px;
+}
+
+.navbar{
+    background: url(/kepek/Iron_HavenLogo.png) no-repeat;
+    background-size: 220px 100%;
+    background-position: 50%;
+}
+
+nav .container-fluid div:last-child{
+    height: 120px;
+}
+
+.navbar>.container-fluid{
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    margin: 50% 0px;
+}
+
+.nav-link{
+    font-size: 24px;
+}
+
+.flex-fill > a{
+    color: white;
+    --bs-nav-link-hover-color: white;
+}
+
+li > .active{
+    font-size: 32px;
+}
+
+.offcanvas-header{
+    height: 120px;
+}
+
+@media only screen and (max-width: 767px){
+    li > .active{
+        border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+        --bs-border-opacity: 1;
+        border-color: rgba(var(--bs-danger-rgb), var(--bs-border-opacity)) !important;
+        border-width: 3px !important;
+        --bs-nav-link-padding-x: 1.35rem;
+        --bs-nav-link-padding-y: 0rem;
+        width: fit-content;
+    }
+
+    nav .container-fluid div:last-child{
+        height: 100%;
+    }
+    
+    .modal-body > h3{
+        justify-self: center;
+    }
+
+    .input-group{
+        margin: 25px 0px;
+        width: 550px;
+        justify-self: center;
+    }
+
+    .input-group-text{
+        font-size: 1rem;
+    }
+
+    .form-control{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 567px)
+{
+    .modal-body > h3{
+        justify-self: center;
+    }
+
+    .input-group{
+        margin: 25px 0px;
+        width: 400px;
+        justify-self: center;
+    }
+
+    .input-group-text{
+        font-size: 0.8rem;
+    }
+
+    .form-control{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 410px)
+{
+    .modal-body > h3{
+        justify-self: center;
+    }
+
+    .input-group{
+        margin: 25px 0px;
+        width: 300px;
+        justify-self: center;
+    }
+
+    .input-group-text{
+        font-size: 0.7rem;
+    }
+
+    .form-control{
+        font-size: 0.7rem;
+    }
+    
+    nav > .container-fluid{
+        padding: 6px;
+    }
+}
+/* navbar end */
+

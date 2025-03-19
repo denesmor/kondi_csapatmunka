@@ -43,6 +43,11 @@ body{
     height: 800px;
 }
 
+#NapiKih{
+    margin-bottom: 200px;
+
+}
+
 
 /*-----------Csapatunk reszponzíív-----------*/
 @media only screen and (max-width: 1120px) {
@@ -423,6 +428,16 @@ div[id="bejelenetkezes"] > h3{
 
 .form-control{
     font-size: 2rem;
+}
+
+#kilepogomb{
+    justify-self: center;
+}
+
+.btn-xl{
+    --bs-btn-font-size: 2.5rem;
+    width: 150px;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 710px)

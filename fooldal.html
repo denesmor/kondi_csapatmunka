@@ -32,7 +32,7 @@
                             <a class="nav-link" href="Shopoldal.html">Shop</a>
                         </li>
                         <li class="nav-item align-self-center">
-                            <a class="nav-link" href="">Étrend</a>
+                            <a class="nav-link" href="Étrend.html">Étrend</a>
                         </li>
                     </ul>
                 </div>
@@ -94,12 +94,12 @@
                 </div>
                 <div class="p-3 gym_border d-flex flex-column justify-content-around bejelent_btns">
                     <button type="button" class="btn btn-light btn-gray p-1 align-self-center" data-bs-toggle="modal" data-bs-target="#bejelent_modal">Bejelentkezés</button>
-                    <!--<hr style="color: black;">-->
-                    <button class="btn btn-light btn-gray p-1 align-self-center">Regisztráció</button>
+                    <button type="button" class="btn btn-light btn-gray p-1 align-self-center" data-bs-toggle="modal" data-bs-target="#regisztra_modal">Regisztrácó</button>
                 </div>
             </div>
         </div>
 
+        <!--Bejelentkezés-->
         <div class="modal" id="bejelent_modal">
             <div class="modal-dialog bejelenetkezes">
               <div class="modal-bejelent_content">
@@ -107,8 +107,8 @@
                 <!-- Modal Header -->
                 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
                     <div class="container-fluid">
-                        <div class="mobile-toggler d-lg-none">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <div class="mobile-toggler d-md-none">
+                            <button id="kilepogomb" type="button" class="btn btn-outline-light d-flex btn-xl" data-bs-dismiss="modal">Back</button>
                         </div>
                         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="oldalnav" aria-labelledby="offcanvasNavbarLabel">
                             <div class="offcanvas-header flex-row-reverse">
@@ -148,7 +148,68 @@
                         </div>
                       </form>
 
-                    <button id="_567" type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button id="kilepogomb" type="button" class="btn btn-outline-light d-flex btn-lg" data-bs-dismiss="modal">Bejelentkezés</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!--Regisztráció-->
+          <div class="modal" id="regisztra_modal">
+            <div class="modal-dialog bejelenetkezes">
+              <div class="modal-bejelent_content">
+          
+                <!-- Modal Header -->
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <div class="container-fluid">
+                        <div class="mobile-toggler d-md-none">
+                            <button id="kilepogomb" type="button" class="btn btn-outline-light d-flex btn-xl" data-bs-dismiss="modal">Back</button>
+                        </div>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="oldalnav" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header flex-row-reverse">
+                                <button type="button" class="navbar-toggler" data-bs-dismiss="offcanvas" aria-label="Close">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-items">
+                                    <li class="nav-item align-self-center flex-grow-1">
+                                        <a class="nav-link active" href="">Kezdőlap</a>
+                                    </li>
+                                    <li class="nav-item align-self-center">
+                                        <a class="nav-link" href="Shopoldal.html">Shop</a>
+                                    </li>
+                                    <li class="nav-item align-self-center">
+                                        <a class="nav-link" href="">Étrend</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <h3>Bejelenetkezes</h3>
+                    <form>
+                        <div class="input-group">
+                          <span class="input-group-text">Email:</span>
+                          <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                      
+                        <div class="input-group">
+                            <span class="input-group-text">Jelszó:</span>
+                          <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-group-text">Jelszó:</span>
+                          <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                      </form>
+
+                    <button id="kilepogomb" type="button" class="btn btn-outline-light d-flex btn-lg" data-bs-dismiss="modal">Regisztrácó</button>
                 </div>
 
               </div>
