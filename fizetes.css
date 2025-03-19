@@ -29,9 +29,15 @@ body{
 
 }
 
-#checkbox_div{
+.grid_felso{
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+#checkbox_div{
+    display: grid;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
 }
 
@@ -120,4 +126,181 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
 /*lablec css*/
+
+#lablec{
+    font-size: 30px;
+}
+
+#lablec_vonal{
+    color: red;
+    
+}
+
+#lablec_vonal_1{
+    color: red;
+    padding-top: 30px;
+}
+
+
+.grid-container_lablec{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lablec_kep{
+    height: 90%;
+    width: 90%;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.grid-item__lablec{
+    padding-top: 20px;
+}
+
+#lepj_kapcs{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#cim{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#telfon{
+    width: 45%;
+    float: left;
+    text-align: right;
+}
+
+#email{
+    width: 45%;
+    float: right;
+}
+
+#tel_email{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media only screen and (max-width:900px)
+{
+    .grid-container_lablec{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    }
+    .lablec_kep{
+        height: 80%;
+        width: 80%;
+    }
+    .lablec_kep_div{
+        vertical-align: middle;
+        text-align: center;
+        height: 100px;
+    }
+    #insta_lablec{
+        height: 60%;
+        width: 55%;
+        margin-top: 20px;
+    }
+    #x_lablec{
+        height: 70%;
+        width: 60%;
+        margin-top: 20px;
+    }
+    #telfon{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    #email{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #cim{
+        margin-top: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 650px)
+{
+    .grid-container_lablec{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        font-size: 20px;
+    }
+    .lablec_kep_div{
+        vertical-align: middle;
+        text-align: center;
+        height: 80px;
+    }
+    #x_lablec{
+        height: 70%;
+        width: 60%;
+        margin-top: 10px;
+    }
+    #insta_lablec{
+        height: 60%;
+        width: 55%;
+        margin-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px)
+{
+    .grid-item__lablec{
+        font-size: 0.000001px;
+        visibility: collapse;
+    }
+    .grid-container_lablec{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        padding-right: 0px;
+
+    }
+    #lepj_kapcs{
+        font-size: 20px;
+    }
+    #tel_email{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 0px;
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #cim{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    #telfon{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    #email{
+        float: none;
+        width: 100%;
+    }
+}

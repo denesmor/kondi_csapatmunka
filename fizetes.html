@@ -12,7 +12,7 @@
       <hr id="fizetes_focim_vonal"> 
     </div>
     <div id="felso_divek">
-        <div>
+        <div class="grid_felso">
             <div class="felso_divek_divek" id="email_div">
                 <p>Email:</p>
             </div>
@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="grid_felso">
             <div class="felso_divek_divek" id="keresztnev_div">
                 <p>Keresztnév*</p>
             </div>
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="grid_felso">
             <div class="felso_divek_divek" id="telefonszam_div">
                 <p>Telefonszám:</p>
             </div>
@@ -46,10 +46,10 @@
     
     <div id="checkbox_div">
         <div class="checkbox"><input type="checkbox" id="bank_hitelkartya" name="bank_hitelkartya" value="van"></div>
-        <div><img src="kepek/bankc.png" alt=""> <p>Bankkártya vagy Hitelkártya</p></div>
+        <div><img src="kepek/bankc.png" alt=""></div> <div><p>Bankkártya vagy Hitelkártya</p></div>
 
         <div class="checkbox"><input type="checkbox" id="paypal" name="paypal" value="van"></div>
-        <div><img src="kepek/joPayPali.png" alt=""> <p>out of service</p></div>
+        <div><img src="kepek/joPayPali.png" alt=""></div> <div><p>out of service</p></div>
 
         <div class="checkbox"><input type="checkbox" id="googlepay" name="googlepay" value="van"></div>
         <div><img src="kepek/jogooglepay.png" alt=""></div>
@@ -65,13 +65,34 @@
             <div class="kartya_hoz_divek"><p>CVV*</p></div>
         </div>
         <div class="kartya_hoz_divek" id="kartyahoz_nev_div">
-            <p>Név*</p>
+            <p>Kártyán szereplő név*</p>
         </div>
     </div>
 
     <div id="fizu_gomb_div">
         <button id="fizu_gomb"><a href="" id="fizu_gomb_link">Vásárlás</a></button>
     </div>
+
+    <footer id="lablec">
+        <div class="container-fluid">
+            <div id="lablec_vonal_1"><hr></div>
+            <div class="grid-container_lablec">
+                <div  class="lablec_kep_div"><img class="lablec_kep" id="insta_lablec" src="kepek/image 4.png" alt=""></div>
+                <div class="grid-item__lablec" id="lablec_insta"><p>IronHavenGYM</p></div>
+                <div  class="lablec_kep_div"><img class="lablec_kep" id="tiktok_lablec" src="kepek/image 5.png" alt=""></div>
+                <div class="grid-item__lablec" id="lablec_tiktok"><p>IronHavenGYM</p></div>
+                <div class="lablec_kep_div"><img class="lablec_kep" id="x_lablec" src="kepek/image 6.png" alt=""></div>
+                <div class="grid-item__lablec" id="lablec_x"><p>IronHavenGYM</p></div>
+            </div>
+            <div id="lepj_kapcs"><p>Lépj velünk kapcsolatba:</p></div>
+            <div id="lablec_vonal"><hr></div>
+            <div id="tel_email">
+                <div id="telfon"><p>Tel.: +36 20 123 4567</p></div>
+                <div id="email"><p>Gmail: info@ironhaven.hu</p></div>
+            </div>
+            <div id="cim"><p>Cím: Budapest, Hős utca 19.</p></div>
+        </div>
+    </footer>
     
 </body>
 </html>
