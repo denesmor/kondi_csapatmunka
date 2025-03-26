@@ -464,6 +464,33 @@ div[id="bejelenetkezes"] > h3{
     }
 }
 
+@media only screen and (max-width: 550px)
+{
+    .btn-xl{
+        --bs-btn-font-size: 1.75rem;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 450px)
+{
+    .btn-xl{
+        --bs-btn-font-size: 1.4rem;
+        width: 75px;
+    }
+}
+
+@media only screen and (max-width: 390px)
+{
+    .btn-xl{
+        --bs-btn-font-size: 1.1rem;
+        width: 55px;
+    }
+    div > nav >div[class="container-fluid"]{
+        padding-right: 0px;
+    }
+}
+
 /* */
 
 #gym_gomb{
@@ -501,6 +528,11 @@ div[id="bejelenetkezes"] > h3{
     .berlet_p{
         padding-left: 0px;
     }
+}
+
+h2[class="d-flex justify-content-center"]{
+    margin-top: 50px;
+    color: red;
 }
 
 /* navbar start */
@@ -577,6 +609,9 @@ li > .active{
         font-size: 1rem;
     }
 
+    .navbar{
+        height: 120px;
+    }
 }
 
 @media only screen and (max-width: 567px)
