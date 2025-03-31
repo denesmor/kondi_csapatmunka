@@ -532,7 +532,17 @@ div[id="bejelenetkezes"] > h3{
 
 h2[class="d-flex justify-content-center"]{
     margin-top: 50px;
+    margin-bottom: 40px;
     color: red;
+}
+
+h4[class="d-flex justify-content-center"]{
+    font-size: 24px;
+}
+
+.center_btn{
+    justify-self: center;
+    margin-top: 60px;
 }
 
 /* navbar start */
