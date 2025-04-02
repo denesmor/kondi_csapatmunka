@@ -41,6 +41,7 @@
         </div>
     </nav>
     <!--Navbar-->
+
     <div id="fizetes_focim">
       <p id="fizetes_focim_p">Bérletek</p>
       <hr id="fizetes_focim_vonal"> 
@@ -50,22 +51,19 @@
             <div class="felso_divek_divek" id="email_div">
                 <p>Email:</p>
             </div>
-            <form action="">
+            
                 <div class="felso_divek_divek" id="mintaemail_div">
-                    <p>asdasdasd</p>
-                    <input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+                    <input type="email" class="form-control" id="email_nagyonaz" placeholder="Email*" name="email">
                 </div>  
-            </form>
+            
             
         </div>
 
         <div class="grid_felso">
             <div class="felso_divek_divek" id="keresztnev_div">
-                <p>Keresztnév*</p>
                 <input type="nev" class="form-control" id="nev" placeholder="Keresztnév*" name="nev">
             </div>
             <div class="felso_divek_divek" id="vezeteknev_div">
-                <p>Vezetéknév*</p>
                 <input type="nev" class="form-control" id="nev" placeholder="Vezetéknév*" name="nev">
             </div>
         </div>
@@ -75,7 +73,6 @@
                 <p>Telefonszám:</p>
             </div>
             <div class="felso_divek_divek" id="mintatelefonszam_div">
-                <p>06 20 111 2222*</p>
                 <input type="telszam" class="form-control" id="telszam" placeholder="Telefonszám*" name="telszam">
             </div>
         </div>
@@ -84,35 +81,33 @@
     <div id="fizetes_fizetes">
         <p id="fizetes_fizetescim">Fizetés</p>
     </div>
-    
+    <!-- fizetes kivalasztas itten van alattam -->
     <div id="checkbox_div">
         <div class="checkbox"><input type="checkbox" id="bank_hitelkartya" name="bank_hitelkartya" value="van"></div>
-        <div><img src="kepek/bankc.png" alt=""></div> <div><p>Bankkártya vagy Hitelkártya</p></div>
+        <div><img src="kepek/bankc.png" alt="" class="paypalxgoogle"></div> <div><p>Bankkártya vagy Hitelkártya</p></div>
 
         <div class="checkbox"><input type="checkbox" id="paypal" name="paypal" value="van"></div>
-        <div><img src="kepek/joPayPali.png" alt=""></div> <div><p>out of service</p></div>
+        <div><img src="kepek/joPayPali.png" alt="" class="paypalxgoogle"></div> <div><p>out of service</p></div>
 
         <div class="checkbox"><input type="checkbox" id="googlepay" name="googlepay" value="van"></div>
-        <div><img src="kepek/jogooglepay.png" alt=""></div>
+        <div><img src="kepek/jogooglepay.png" alt="" class="paypalxgoogle"></div>
     </div>
 
     <div id="kartya_hozzaadas">
         <div class="kartya_hoz_divek" id="kartyahoz_kszam_div">
-            <p>0000-1111-2222-3333*</p>
             <input type="kszam" class="form-control" id="kszam" placeholder="Kártyaszám*" name="kszam">
         </div>
         <div id="kartya_3as_sor">
             <div class="kartya_hoz_divek"><p>VALID THRU</p>
             </div> 
-            <div class="kartya_hoz_divek"><p>00/11*</p>
-                <input type="" class="form-control" id="nev" placeholder="Vezetéknév*" name="nev">
+            <div class="kartya_hoz_divek">
+                <input type="" class="form-control" id="expdate" placeholder="00/00*" name="expdate">
             </div>
-            <div class="kartya_hoz_divek"><p>CVV*</p>
+            <div class="kartya_hoz_divek">
                 <input type="cvv" class="form-control" id="cvv" placeholder="CVV*" name="cvv">
             </div>
         </div>
         <div class="kartya_hoz_divek" id="kartyahoz_nev_div">
-            <p>Kártyán szereplő név*</p>
             <input type="knev" class="form-control" id="knev" placeholder="Kártyán szereplő név*" name="knev">
         </div>
     </div>
