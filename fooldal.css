@@ -48,6 +48,11 @@ body{
 
 }
 
+#kosarba{
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 /*-----------Csapatunk reszponzíív-----------*/
 @media only screen and (max-width: 1120px) {
