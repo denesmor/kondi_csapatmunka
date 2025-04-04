@@ -1,18 +1,20 @@
-
 /*h1*/
 h1{
     color: red;
 }
+
 /*body*/
 body{
     color: white;
     background-color: black;
 }
+
 /*Napi kihívás*/
 #NapiCim{
     text-align: center;
     margin-bottom: 30px;
 }
+
 #NapiKi{
     margin-left: auto;
     margin-right: auto;
@@ -29,6 +31,7 @@ body{
     margin-right: auto;
 
 }
+
 .carousel-control-prev{
     margin-top: auto;
     margin-bottom: auto;
@@ -53,6 +56,18 @@ body{
     margin-top: 50px;
 }
 
+h4[class="d-flex h1"]{
+    width: 450px;
+    font-size: 24px;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.text-light:hover {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
 
 /*-----------Csapatunk reszponzíív-----------*/
 @media only screen and (max-width: 1120px) {
@@ -346,6 +361,8 @@ body{
     padding-left: 30px;
 }
 
+/* */
+
 /* bejelentkezes&regisztracio */
 .gym_border{
     border: 4px solid white;
@@ -483,6 +500,14 @@ div[id="bejelenetkezes"] > h3{
         --bs-btn-font-size: 1.4rem;
         width: 75px;
     }
+
+    h4[class="d-flex h1"]{
+        width: 325px;
+        font-size: 22px;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 390px)
@@ -548,14 +573,10 @@ h2[class="d-flex justify-content-center"]{
     color: red;
 }
 
-h4[style="width: 450px;"][class="d-flex h1"]{
-    font-size: 24px;
-    justify-content: center;
-}
-
 .center_btn{
     justify-self: center;
     margin-top: 60px;
+    margin-bottom: 33px;
 }
 
 /* navbar start */
@@ -683,3 +704,4 @@ li > .active{
     }
 }
 /* navbar end */
+
