@@ -498,6 +498,13 @@ div[id="bejelenetkezes"] > h3{
 
 /* */
 
+.btn-backto{
+    --bs-btn-padding-y: 1rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-font-size: 1.25rem;
+    --bs-btn-border-radius: var(--bs-border-radius-lg)
+}
+
 #gym_gomb{
     background-color: #D9D9D9;
     width: 100%;
@@ -541,8 +548,9 @@ h2[class="d-flex justify-content-center"]{
     color: red;
 }
 
-h4[class="d-flex justify-content-center"]{
+h4[style="width: 450px;"][class="d-flex h1"]{
     font-size: 24px;
+    justify-content: center;
 }
 
 .center_btn{
