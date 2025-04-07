@@ -53,7 +53,7 @@
             </div>
             
                 <div class="felso_divek_divek" id="mintaemail_div">
-                    <input type="email" class="form-control" id="email_nagyonaz" placeholder="Email*" name="email">
+                    <input type="email" class="form-control" id="email_nagyonaz" placeholder="mintaemail@minta.com*" name="email">
                 </div>  
             
             
@@ -73,7 +73,7 @@
                 <p>Telefonszám:</p>
             </div>
             <div class="felso_divek_divek" id="mintatelefonszam_div">
-                <input type="telszam" class="form-control" id="telszam" placeholder="Telefonszám*" name="telszam">
+                <input type="telszam" class="form-control" id="telszam" placeholder="+36 00 000 0000*" name="telszam">
             </div>
         </div>
     </div>
@@ -83,31 +83,31 @@
     </div>
     <!-- fizetes kivalasztas itten van alattam -->
     <div id="checkbox_div">
-        <div>
+        <div class="radiobutton_div" id="rb_div">
             <label class="radiobutton">
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>
                 </label>
         </div>
-        <div><img src="kepek/bankc.png" alt="" class="paypalxgoogle"></div> <div><p>Bankkártya vagy Hitelkártya</p></div>
+        <div id="bankk_kep_div"><img src="kepek/bankc.png" alt="" class="paypalxgoogle"></div> <div class="radio_szoveg"><p>Bankkártya vagy Hitelkártya</p></div>
 
 
-        <div>
+        <div class="radiobutton_div">
             <label class="radiobutton">
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>
                 </label>
         </div>
-        <div><img src="kepek/joPayPali.png" alt="" class="paypalxgoogle"></div> <div><p>out of service</p></div>
+        <div><img src="kepek/joPayPali.png" alt="" class="paypalxgoogle"></div> <div class="radio_szoveg"><p>out of service</p></div>
 
 
-        <div>
+        <div class="radiobutton_div">
             <label class="radiobutton">
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>
                 </label>
         </div>
-        <div><img src="kepek/jogooglepay.png" alt="" class="paypalxgoogle"></div>
+        <div><img src="kepek/jogooglepay.png" alt="" class="paypalxgoogle"></div> <div class="radio_szoveg"><p>out of service</p></div>
     </div>
 
 
@@ -116,7 +116,7 @@
             <input type="kszam" class="form-control" id="kszam" placeholder="Kártyaszám*" name="kszam">
         </div>
         <div id="kartya_3as_sor">
-            <div class="kartya_hoz_divek"><p>VALID THRU</p>
+            <div class="kartya_hoz_divek"><p id="validthru">VALID THRU</p>
             </div> 
             <div class="kartya_hoz_divek">
                 <input type="" class="form-control" id="expdate" placeholder="00/00*" name="expdate">
