@@ -41,17 +41,21 @@ body{
     
 }
 
-
-
-
-
 #checkbox_div{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 30%;
+    padding-right: 30%;
     text-align: center;
+}
+
+.radiobutton_div{
+    padding-top: 10px;
+}
+
+.radio_szoveg{
+    padding-top: 10px;
 }
 
 
@@ -191,6 +195,55 @@ body{
 #fizu_gomb_link{
     color: white;
     text-decoration: none;
+}
+
+#validthru{
+    padding-top: 15px;
+}
+
+#expdate{
+    padding-top: 15px;
+}
+
+#cvv{
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .grid_felso{
+        display: block;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+
+    #checkbox_div{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    #validthru{
+        font-size: 10px;
+    }
+
+    #expdate{
+        padding-top: 10px;
+    }
+
+    #cvv{
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 358px)
+{
+    #rb_div{
+        padding-top: 30px;
+    }
+
+    #bankk_kep_div{
+        padding-top: 20px;
+    }
 }
 
 
