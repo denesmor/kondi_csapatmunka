@@ -69,6 +69,12 @@ h4[class="d-flex h1"]{
     color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
 
+@media only screen and (max-width: 860px) {
+    .fokep>img {
+        height: 600px;
+    }
+}
+
 /*-----------Csapatunk reszponzíív-----------*/
 @media only screen and (max-width: 1120px) {
     .carousel-inner img{
@@ -130,6 +136,10 @@ h4[class="d-flex h1"]{
     }
     .d-block w-60{
         width: -1%;
+    }
+    .fokep>img {
+        width: 100%;
+        height: 400px;
     }
 }
 
@@ -577,6 +587,12 @@ h2[class="d-flex justify-content-center"]{
     justify-self: center;
     margin-top: 60px;
     margin-bottom: 33px;
+}
+
+@media only screen and (max-width: 418px) {
+    .fokep>img {
+        height: 300px;
+    }
 }
 
 /* navbar start */
