@@ -29,24 +29,38 @@ let telilista = false
 let elem;
 function timer_passage(){
 
+    let ugyanaz = false
+
     let randomNum = gererate()
-            
 
-            elem = napiKi[randomNum]
-            
+    elem = napiKi[randomNum]
 
+    console.log("----------------")
+    console.log(elem)
 
-            setTimeout(timer_passage, 6000)
-         }
+    for (let i = 0; i < szamok.length(); i++)
+    {
+        if (szamok[i] == elem)
+        {
+            ugyanaz = true
+        }
+    }
 
-    
-        document.getElementById("demo").innerHTML = elem;
-         
+    if (!ugyanaz)
+    {
+        szamok.push(elem)
+    }
 
+    console.log("----------------")
 
-    
+    for (let i = 0; i < szamok.length(); i++)
+    {
+        console.log(szamok[i])
+    }
 
-        
-    
+    setTimeout(timer_passage, 6000)
+}
 
 timer_passage();
+
+document.getElementById("demo").innerHTML = elem;
