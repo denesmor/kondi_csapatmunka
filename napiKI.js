@@ -100,14 +100,13 @@ let napiKi = [
     " 1 perc plank csípőforgatással "
 ];
 
-let ujra = true
 let szamok = []
 let telilista = false
 let elem;
 
 function gererate(){
 
-    let randomNum = Math.round(Math.floor(Math.random() * 8)); 
+    let randomNum = Math.floor(Math.floor(Math.random() * 100)); 
     console.log(randomNum);
 
     return randomNum
@@ -115,27 +114,37 @@ function gererate(){
 
 function timer_passage(){
 
-    let ugyanaz = false
+    let ujra = false
 
-    let randomNum = gererate()
-
-    elem = napiKi[randomNum]
-
-    console.log("----------------")
-    console.log(elem)
-
-    for (let i = 0; i < szamok.length; i++)
+    do
     {
-        if (szamok[i] == elem)
+        let ugyanaz = false
+
+        let randomNum = gererate()
+
+        elem = napiKi[randomNum]
+
+        console.log("----------------")
+        console.log(elem)
+
+        for (let i = 0; i < szamok.length; i++)
         {
-            ugyanaz = true
+            if (szamok[i] == elem)
+            {
+                ugyanaz = true
+            }
         }
-    }
 
-    if (!ugyanaz)
-    {
-        szamok.push(elem)
-    }
+        if (!ugyanaz)
+        {
+            szamok.push(elem)
+            ujra = false
+        }
+        else
+        {
+            ujra = true
+        }
+    } while (ujra)
 
     console.log("----------------")
 
