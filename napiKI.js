@@ -103,6 +103,7 @@ let napiKi = [
 let szamok = []
 let telilista = false
 let elem;
+let porgetes = 0;
 
 function gererate(){
 
@@ -162,7 +163,16 @@ function timer_passage(){
         szamok = []
     }
 
-    setTimeout(timer_passage, 900000)
+    setTimeout(timer_passage, 300000000)
 }
 
 timer_passage();
+
+function napi_porgetes()
+{
+    if (porgetes < 4)
+    {
+        timer_passage();
+        porgetes++;
+    }
+}
