@@ -24,6 +24,20 @@ body{
     color: white;
 }
 
+.modal-content{
+    background-color: black;
+}
+
+#NKbutton{
+    text-align: center;
+    color: black;
+}
+#NKbutton button{
+    text-align: center;
+    color: black;
+    font-size: 28px;
+}
+
 /*Csapatunk*/
 .carousel-inner img{
     margin-top: 20px;
@@ -48,7 +62,7 @@ body{
 }
 
 #NapiKih{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 
 }
 
@@ -167,19 +181,6 @@ h4[class="d-flex h1"]{
 }
 /*-------------------------------------------*/
 
-.modal-content{
-    background-color: black;
-}
-
-#NKbutton{
-    text-align: center;
-    color: black;
-}
-#NKbutton button{
-    text-align: center;
-    color: black;
-    font-size: 28px;
-}
 
 /*------------------------lablec---------------------*/
 
@@ -364,13 +365,13 @@ h4[class="d-flex h1"]{
     border-radius: 20px;
     height: 270px;
     font-size: larger;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 #berletek_kep{
     width: 55%;
     float: right;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     height: 270px;
     object-fit: cover;
 }
@@ -495,7 +496,7 @@ div[id="bejelenetkezes"] > h3{
         --bs-btn-bg: #D9D9D9;
         --bs-btn-border-color: #D9D9D9;
         width: 225px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .gym_border > p{
@@ -503,13 +504,18 @@ div[id="bejelenetkezes"] > h3{
     }
 
     .bejent_szoveg{
-        width: 270px;
-        margin-top: 5px;
+        width: 230px;
+        margin-top: 10px;
     }
     
     .bejelent_btns{
-        width: 320px;
-        margin-top: 5px;
+        width: 270px;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .navbar-toggler{
+        padding: 4px 9px;
     }
 }
 

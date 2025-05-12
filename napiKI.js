@@ -162,7 +162,7 @@ function timer_passage(){
         szamok = []
     }
 
-    setTimeout(timer_passage, 6000)
+    setTimeout(timer_passage, 900000)
 }
 
 timer_passage();
